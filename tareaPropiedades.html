@@ -1,1 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propiedades de CSS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f8fb;
+            color: #333;
+            margin: 40px;
+            text-align: center;
+        }
+        
+        h1 {
+            color: #0056b3;
+        }
+
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        th {
+            background-color: #007bff;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #d6e4f0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabla de Propiedades CSS Utilizadas</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre de propiedad</th>
+                <th>Función</th>
+                <th>Posibles valores</th>
+                <th>Otros datos relevantes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>color</td>
+                <td>Define el color del texto</td>
+                <td>Colores (red, blue), HEX (#ff0000), RGB (rgb(255, 0, 0))</td>
+                <td>Hereda valores del elemento padre</td>
+            </tr>
+            <tr>
+                <td>background-color</td>
+                <td>Establece el color de fondo del elemento</td>
+                <td>Colores, HEX, RGB</td>
+                <td>Si no se define, el fondo es transparente</td>
+            </tr>
+            <tr>
+                <td>font-size</td>
+                <td>Define el tamaño del texto</td>
+                <td>px, em, rem, %, small, medium, large</td>
+                <td>Valores relativos dependen del elemento padre</td>
+            </tr>
+            <tr>
+                <td>margin</td>
+                <td>Espaciado exterior de un elemento</td>
+                <td>px, %, auto</td>
+                <td>Auto se usa para centrar elementos</td>
+            </tr>
+            <tr>
+                <td>padding</td>
+                <td>Espaciado interno de un elemento</td>
+                <td>px, %, em</td>
+                <td>Define espacios alrededor del contenido</td>
+            </tr>
+            <tr>
+                <td>border</td>
+                <td>Define el borde del elemento</td>
+                <td>px (ancho), tipo (solid, dashed, dotted), color</td>
+                <td>Puede combinarse con border-radius</td>
+            </tr>
+            <tr>
+                <td>display</td>
+                <td>Determina cómo se muestra un elemento</td>
+                <td>block, inline, flex, grid, none</td>
+                <td>None oculta el elemento</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
 
