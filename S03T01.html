@@ -33,6 +33,19 @@
             padding: 10px;
             background: lightgray;
         }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: lightgray;
+        }
     </style>
 </head>
 <body>
@@ -45,7 +58,7 @@
     <h2>2. Principales Diferencias</h2>
     <ul>
         <li>Flexbox se usa para la disposición en una sola dirección (horizontal o vertical).</li>
-        <li>Grid se usa para organizar elementos en filas y columnas al mismo tiempo.</li>
+        <li>Grid se usa para organizar elementos en filas y columnas al mismo tiempo</li>
     </ul>
     
     <h2>3. Casos de Uso</h2>
@@ -71,6 +84,41 @@
         <div class="grid-item">Elemento 6</div>
     </div>
     
-   
+    <h2>6. Mejores prácticas en el nombramiento de clases en CSS</h2>
+    <p>Existen varias metodologías para nombrar clases en CSS. Algunas de las más utilizadas son:</p>
+    <table>
+        <tr>
+            <th>Metodología</th>
+            <th>Descripción</th>
+            <th>Ventajas</th>
+            <th>Desventajas</th>
+        </tr>
+        <tr>
+            <td>Convención clásica</td>
+            <td>Nombres simples como <code>.header</code>, <code>.container</code>.</td>
+            <td>Fácil de entender y aplicar.</td>
+            <td>Poco escalable en proyectos grandes.</td>
+        </tr>
+        <tr>
+            <td>BEM (Block Element Modifier)</td>
+            <td>Estructura de nombres <code>bloque__elemento--modificador</code>.</td>
+            <td>Organización clara, reutilizable.</td>
+            <td>Los nombres pueden volverse largos.</td>
+        </tr>
+        <tr>
+            <td>SMACSS</td>
+            <td>Divide estilos en módulos reutilizables.</td>
+            <td>Modularidad y escalabilidad.</td>
+            <td>Curva de aprendizaje más pronunciada.</td>
+        </tr>
+        <tr>
+            <td>OOCSS</td>
+            <td>Divide estilos en estructura y apariencia.</td>
+            <td>Reutilización efectiva de clases.</td>
+            <td>Mayor dependencia en múltiples clases.</td>
+        </tr>
+    </table>
+    
 </body>
+</html>
 </html>
