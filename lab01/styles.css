@@ -1,0 +1,40 @@
+table {
+    width: 75%; 
+    font-size: 20px; 
+    margin: auto; 
+    border-collapse: collapse;
+    background: #222; 
+    color: white; 
+}
+
+th {
+    background-color: #111;
+    color: white;
+    padding: 12px;
+    font-size: 22px;
+    text-align: center;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #555;
+    text-align: left;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #333;
+}
+
+tbody tr:hover {
+    background-color: #444;
+}
+
+@media (max-width: 768px) {
+    table {
+        width: 90%;
+        font-size: 18px;
+    }
+    th, td {
+        padding: 8px;
+    }
+}

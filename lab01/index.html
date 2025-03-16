@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Foundation</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/theme/black.min.css">
+    <link rel="stylesheet" href="/lab-01/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/styles/default.min.css">
+
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section>
+                <img src="https://avatars.githubusercontent.com/u/35962841?s=280&v=4" alt="Foundation">
+                <h1>Foundation</h1>
+                <p>Fabián Guzmán - Alejandro Guillén</p>
+                <p>20 de marzo</p>
+            </section>
+            
+            <section>
+                <h2>Agenda</h2>
+                <ol>
+                    <li class="fragment">Información básica</li>
+                    <li class="fragment">Casos de uso</li>
+                    <li class="fragment">Pasos para la instalación</li>
+                    <li class="fragment">Componentes principales</li>
+                    <li class="fragment">Ventajas y desventajas</li>
+                </ol>
+            </section>
+            
+            <section>
+                <section>
+                    <h2>Información básica</h2>
+                </section>
+                <section>
+                    <h2>Creadores</h2>
+                    <p>Foundation fue desarrollado por Zurb, una compañía de diseño de productos digitales.</p>
+                </section>
+                <section>
+                    <h2>Fecha de publicación</h2>
+                    <p>Foundation fue lanzado por primera vez en 2011.</p>
+                </section>
+                <section>
+                    <h2>Enlace a GitHub</h2>
+                    <p><a href="https://github.com/foundation/foundation-sites" target="_blank">Repositorio de Foundation en GitHub</a></p>
+                    <iframe src="https://ghbtns.com/github-btn.html?user=foundation&repo=foundation-sites&type=star&count=true" frameborder="0" scrolling="0" width="170" height="20"></iframe>
+                </section>
+                <section>
+                    <h2>Fun fact</h2>
+                    <p>Foundation fue el primer framework CSS en ser completamente responsive por defecto.</p>
+                </section>
+            </section>
+            
+            <section>
+                <section>
+                    <h2>Casos de uso</h2>
+                </section>
+                <section>
+                    <h3>Web #1</h3>
+                    <p><a href="https://www.adobe.com" target="_blank">Adobe</a> usa Foundation para su diseño adaptable.</p>
+                </section>
+                <section>
+                    <h3>Web #2</h3>
+                    <p><a href="https://www.ebay.com" target="_blank">eBay</a> implementa Foundation en partes de su interfaz.</p>
+                </section>
+                <section>
+                    <h3>Web #3</h3>
+                    <p><a href="https://www.mozilla.org" target="_blank">Mozilla</a> ha usado Foundation en proyectos internos.</p>
+                </section>
+            </section>
+            
+            <section>
+                <section>
+                    <h2>Pasos para la instalación</h2>
+
+                </section>
+                <section>
+                    <ol>
+                        <li class="fragment">Gestores de paquetes</li>
+                    <ul>
+                        <li class="fragment">npm</li>
+                        <li class="fragment">yarn</li>
+                    </ul>
+                    <li class="fragment">Command Line Interface (CLI)</li>
+                    <li class="fragment">Descarga de template predefinido</li>
+                    <li class="fragment grow">Content Delivery Network (CDN)</li>
+                    </ol>
+                </section>
+                <section>
+                    <h2>CDN</h2>
+                    <p>CSS comprimido:</p>
+                    <pre><code class="hljs html">&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.9.0/dist/css/foundation.min.css" crossorigin="anonymous"&gt;</code></pre>
+                    
+                    <p>JavaScript comprimido:</p>
+                    <pre><code class="hljs html">&lt;script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.9.0/dist/js/foundation.min.js" crossorigin="anonymous"&gt;&lt;/script&gt;</code></pre>
+                </section>
+                <section>
+                    <h3>Ejemplo</h3>
+                    <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="YPzYGwP" data-pen-title="index-con-foundation" data-user="Fabi-n-Guzm-n" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                        <span>See the Pen <a href="https://codepen.io/Fabi-n-Guzm-n/pen/YPzYGwP">
+                        index-con-foundation</a> by Fabián Guzmán (<a href="https://codepen.io/Fabi-n-Guzm-n">@Fabi-n-Guzm-n</a>)
+                        on <a href="https://codepen.io">CodePen</a>.
+                        </span>
+                    </p>
+                </section>
+            </section>
+            
+            <section>
+                <section>
+                    <h2>Componentes principales</h2>
+                </section>
+                <section>
+                    <h3>Botón</h3>
+                    <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="dPyJpWP" data-pen-title="Untitled" data-user="Fabi-n-Guzm-n" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                        <span>See the Pen <a href="https://codepen.io/Fabi-n-Guzm-n/pen/dPyJpWP">
+                        Untitled</a> by Fabián Guzmán (<a href="https://codepen.io/Fabi-n-Guzm-n">@Fabi-n-Guzm-n</a>)
+                        on <a href="https://codepen.io">CodePen</a>.</span>
+                    </p>
+                </section>
+                <section>
+                    <h3>Switch</h3>
+                    <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="OPJzROm" data-pen-title="ejemplo-slider" data-user="Fabi-n-Guzm-n" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                        <span>See the Pen <a href="https://codepen.io/Fabi-n-Guzm-n/pen/OPJzROm">
+                        ejemplo-slider</a> by Fabián Guzmán (<a href="https://codepen.io/Fabi-n-Guzm-n">@Fabi-n-Guzm-n</a>)
+                        on <a href="https://codepen.io">CodePen</a>.</span>
+                      </p>
+                      <script async src="https://public.codepenassets.com/embed/index.js"></script>
+                </section>
+                <section>
+                    <h3>Top bar</h3>
+                    <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="gbOowBR" data-pen-title="Untitled" data-user="Fabi-n-Guzm-n" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                        <span>See the Pen <a href="https://codepen.io/Fabi-n-Guzm-n/pen/gbOowBR">
+                        Untitled</a> by Fabián Guzmán (<a href="https://codepen.io/Fabi-n-Guzm-n">@Fabi-n-Guzm-n</a>)
+                        on <a href="https://codepen.io">CodePen</a>.</span>
+                      </p>
+                      <script async src="https://public.codepenassets.com/embed/index.js"></script>
+                </section>
+                <section>
+                    <h3>Pagination</h3>
+                    <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="MYWrjzL" data-pen-title="Untitled" data-user="Fabi-n-Guzm-n" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                        <span>See the Pen <a href="https://codepen.io/Fabi-n-Guzm-n/pen/MYWrjzL">
+                        Untitled</a> by Fabián Guzmán (<a href="https://codepen.io/Fabi-n-Guzm-n">@Fabi-n-Guzm-n</a>)
+                        on <a href="https://codepen.io">CodePen</a>.</span>
+                      </p>
+                      <script async src="https://public.codepenassets.com/embed/index.js"></script>
+                </section>
+                <section>
+                    <h3>Callout</h3>
+                    <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="YPzYGgp" data-pen-title="ejemplo-acco" data-user="Fabi-n-Guzm-n" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                        <span>See the Pen <a href="https://codepen.io/Fabi-n-Guzm-n/pen/YPzYGgp">
+                        ejemplo-acco</a> by Fabián Guzmán (<a href="https://codepen.io/Fabi-n-Guzm-n">@Fabi-n-Guzm-n</a>)
+                        on <a href="https://codepen.io">CodePen</a>.</span>
+                      </p>
+                      <script async src="https://public.codepenassets.com/embed/index.js"></script>
+                </section>
+                <section>
+                    <h3>Label</h3>
+                    <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="ByaJQar" data-pen-title="Untitled" data-user="Fabi-n-Guzm-n" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                        <span>See the Pen <a href="https://codepen.io/Fabi-n-Guzm-n/pen/ByaJQar">
+                        Untitled</a> by Fabián Guzmán (<a href="https://codepen.io/Fabi-n-Guzm-n">@Fabi-n-Guzm-n</a>)
+                        on <a href="https://codepen.io">CodePen</a>.</span>
+                      </p>
+                      <script async src="https://public.codepenassets.com/embed/index.js"></script>
+                </section>
+                <section>
+                    <h3>Progress Bar</h3>
+                    <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="EaxoNaj" data-pen-title="ejemplo-orbit" data-user="Fabi-n-Guzm-n" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                        <span>See the Pen <a href="https://codepen.io/Fabi-n-Guzm-n/pen/EaxoNaj">
+                        ejemplo-orbit</a> by Fabián Guzmán (<a href="https://codepen.io/Fabi-n-Guzm-n">@Fabi-n-Guzm-n</a>)
+                        on <a href="https://codepen.io">CodePen</a>.</span>
+                      </p>
+                      <script async src="https://public.codepenassets.com/embed/index.js"></script>
+                </section>
+                <section>
+                    <h3>Card</h3>
+                    <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="gbOoLpo" data-pen-title="Untitled" data-user="Fabi-n-Guzm-n" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                        <span>See the Pen <a href="https://codepen.io/Fabi-n-Guzm-n/pen/gbOoLpo">
+                        Untitled</a> by Fabián Guzmán (<a href="https://codepen.io/Fabi-n-Guzm-n">@Fabi-n-Guzm-n</a>)
+                        on <a href="https://codepen.io">CodePen</a>.</span>
+                      </p>
+                      <script async src="https://public.codepenassets.com/embed/index.js"></script>
+                </section>
+                <section>
+                    <h3>Upload file</h3>
+                    <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="wBvpoKX" data-pen-title="Untitled" data-user="Fabi-n-Guzm-n" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                        <span>See the Pen <a href="https://codepen.io/Fabi-n-Guzm-n/pen/wBvpoKX">
+                        Untitled</a> by Fabián Guzmán (<a href="https://codepen.io/Fabi-n-Guzm-n">@Fabi-n-Guzm-n</a>)
+                        on <a href="https://codepen.io">CodePen</a>.</span>
+                      </p>
+                      <script async src="https://public.codepenassets.com/embed/index.js"></script>
+                </section>
+                <section>
+                    <h3>Radio and checkboxes</h3>
+                    <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="JojMbKK" data-pen-title="Untitled" data-user="Fabi-n-Guzm-n" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                        <span>See the Pen <a href="https://codepen.io/Fabi-n-Guzm-n/pen/JojMbKK">
+                        Untitled</a> by Fabián Guzmán (<a href="https://codepen.io/Fabi-n-Guzm-n">@Fabi-n-Guzm-n</a>)
+                        on <a href="https://codepen.io">CodePen</a>.</span>
+                      </p>
+                      <script async src="https://public.codepenassets.com/embed/index.js"></script>
+                </section>
+            </section>
+            
+            <section>
+                <div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Ventajas</th>
+                                <th>Desventajas</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Sistema grid flexible y avanzado.</td>
+                                <td>Menos popular que Bootstrap, lo que significa menos comunidad y recursos.</td>
+                            </tr>
+                            <tr>
+                                <td>Diseñado con enfoque en accesibilidad.</td>
+                                <td>Curva de aprendizaje más pronunciada.</td>
+                            </tr>
+                            <tr>
+                                <td>Ideal para diseño responsivo con Mobile First.</td>
+                                <td>Algunos navegadores presentan problemas de compatibilidad con ciertos componentes.</td>
+                            </tr>
+                            <tr>
+                                <td>Incluye herramientas avanzadas como Motion UI y Flexbox.</td>
+                                <td>Mayor dependencia de JavaScript en comparación con otros frameworks.</td>
+                            </tr>
+                            <tr>
+                                <td>Compatible con Sass para personalización avanzada.</td>
+                                <td>Requiere más configuración inicial en comparación con otros frameworks.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script async src="https://public.codepenassets.com/embed/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.js"></script>
+    <script>
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            slideNumber: true,
+            history: true,
+            transition: 'slide' 
+        });
+    </script>
+</body>
+</html>
