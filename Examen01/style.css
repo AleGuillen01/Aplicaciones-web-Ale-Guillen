@@ -1,4 +1,4 @@
-/* Reset general */
+
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +8,7 @@
 html, body {
   height: 100%;
   font-family: Arial, sans-serif;
-  background: none !important; /* Evita que el fondo del body tape el blur */
+  background: none !important; /* Evita que el fondo del body tape el blur, sino se ve todo negro:( */
 }
 
 /* Fondo desenfocado con imagen de billetes */
@@ -18,7 +18,7 @@ html, body {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-image: url("fondo-colones.png"); /* O usá el enlace externo */
+  background-image: url("fondo-colones.png"); 
   background-size: cover;
   background-position: center;
   filter: blur(6px);
@@ -53,7 +53,7 @@ html, body {
   overflow: hidden;
 }
 
-/* Botonera */
+/* Botones */
 .buttons {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -100,7 +100,7 @@ button.decimal {
   color: #ffffff;
 }
 
-/* Responsividad */
+/* Responsive */
 @media (max-width: 500px) {
   .calculator {
     width: 100%;
